@@ -1,5 +1,8 @@
 # MS-CAN sniffer — 2011 Ford Fusion body bus
 
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square) ![CAN bus](https://img.shields.io/badge/CAN_bus-2D2D2D?style=flat-square) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square)
+
+
 Listen-only CAN sniffer for the ESP32-S3 that logs every frame on the car's
 **MS-CAN body bus (125 kbps, OBD2 pins 3/11)** — the bus carrying climate
 control, locks, windows, etc. It never transmits, so it cannot disturb the car.
@@ -92,3 +95,13 @@ Replaying a captured frame needs the TWAI driver in normal mode
   diagnostic session — that's the next layer to investigate per function.
 - Stay off safety buses (ABS/airbag/steering). Climate, locks, windows and
   lights are the safe playground.
+
+---
+
+### 👤 About the author
+
+**Prashant Shrestha** — Cybersecurity Specialist (CDI College, in progress) · 11+ years across SOC analysis, penetration testing & network security · Mississauga, ON 🇨🇦
+
+🔗 [LinkedIn](https://www.linkedin.com/in/cto-prashant/) · 💻 [GitHub](https://github.com/prashantshrestha01)
+
+*Building in public — every project here is my own lab work.*
